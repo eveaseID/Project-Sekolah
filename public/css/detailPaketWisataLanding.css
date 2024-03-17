@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+    background: #fff;
+    font-family: poppins;
+}
+
+.left {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.left .images > img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0px 5px #808080a2;
+    border-radius: 5px;
+}
+
+.left .images .small-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.left .images .small-images img {
+    width: 80px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px #808080a2;
+}
+
+.right {
+    width: 50%;
+}
+
+.diskon {
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+    rotate: -100deg;
+    user-select: none;
+}
+
+.diskon img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    user-select: none;
+}
+
+.diskon .diskonVal {
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    font-size: 20px;
+    rotate: 130deg;
+    transform: rotateX(20deg);
+    color: white;
+    font-weight: bolder;
+}
+
+.right {
+    line-height: 35px;
+}
+
+.right .namaPaket {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right .deskripsi,
+.right .fasilitas,
+.right .itinerary,
+.right .harga {
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.right .action .btn-pesan {
+    background: #e19f1b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+
+.right .action .btn-save {
+    position: relative;
+    background: #eeeeee63;
+    border: 0.4px solid #5555559a;
+    border-radius: 3px;
+    padding: 0px 25px;
+    font-size: 14px;
+}
+
+.right .action .btn-save::before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    display: inline-block;
+    margin-left: -15px;
+    font-weight: 100;
+}
+
+/* main {
+    margin: 40px 100px;
+    font-family: Poppins;
+}
+header {
+    max-width: 50%;
+    margin: 25px 0;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.images .big-image {
+    width: 100%;
+}
+
+.images .small-images {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.images .big-image img {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.images .small-images img {
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+.images .small-images .sm-img1 {
+    border-top-right-radius: 5px;
+}
+.images .small-images .sm-img4 {
+    border-bottom-right-radius: 5px;
+}
+
+.right {
+    line-height: 35px;
+}
+
+.right .namaPaket {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right .deskripsi,
+.right .fasilitas,
+.right .itinerary {
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.right .action .btn-pesan {
+    background: #e19f1b;
+    color: #fff;
+    border: 0.4px solid transparent;
+    border-radius: 3px;
+    padding: 0px 20px;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.right .action .btn-save {
+    position: relative;
+    background: #eeeeee63;
+    border: 0.4px solid #5555559a;
+    border-radius: 3px;
+    padding: 0px 25px;
+    font-size: 14px;
+}
+
+.right .action .btn-save::before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f004";
+    display: inline-block;
+    margin-left: -15px;
+    font-weight: 100;
+} */
